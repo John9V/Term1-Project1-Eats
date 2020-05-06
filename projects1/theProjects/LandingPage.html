@@ -1,0 +1,67 @@
+<!-- Log in page -->
+<html>
+
+<head>
+    <title>
+        Eats | Login | </title>
+   
+    <!-- linking bootstrap css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/LandingPage.css" media="screen" />
+ 
+  
+    <!--                                                -->
+    <!--                                    SCRIPTS 1   -->
+    <!--                                                -->
+
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-firestore.js"></script>
+
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+  <!-- Linking all scripts -->
+  <script src="scripts/recipes.js"> </script>
+  <script src="scripts/create_user.js"> </script>
+  <script src="scripts/firebaseAuth.js"> </script>
+  <script src="scripts/FirebaseLinking.js"> </script>
+  
+</head>
+
+
+<body>
+
+    <!--                                                -->
+    <!--                  HTML                          -->
+    <!--                                                -->
+
+    <!-- Burger image -->
+    <img class="background" src="images/background_login.jpg" alt="background image">
+    
+    <!-- Logo -->
+    <h1 class="header"><i>EATS</i></h1>
+    
+    <!-- Header -->
+    <p id="sign"> Sign in</p>
+    <p id="new"> New to <i>EATS</i>? Sign Up Now!</p>
+
+    <!-- Sign in box -->
+    <div id="firebaseui-auth-container"></div>
+    <div id="loader">Loading...</div>
+    
+      <!-- Linking firebase scripts -->
+      <script src="scripts/FirebaseLinking.js"> </script>
+  
+</body>
+
+</html>

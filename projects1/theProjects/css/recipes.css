@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Jaldi&display=swap');
+/* Background image */
+body {
+    background-image: url("images/background5.jpg");
+    background-repeat: repeat;
+    background-size: 100% auto;
+    opacity: 0.9;
+}
+/* Filter button */
+#menu-icon {
+    padding: 15px 31px;
+    float: right;
+    padding: 16px 32px;
+    font-weight: 700;
+    background-color: rgb(171, 24, 24);
+    border: 3px solid white;
+    font-family: 'Jaldi';
+    font-size: 45px;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+    top: 4%;
+    left: 82%;
+}
+/* Changes mouse when hovering over filter button */
+#menu-icon: hover {
+    cursor: pointer;
+}
+/* Space out category */
+#menu ul {
+    padding-left: .5em;
+}
+/* Panel that slides in and out */
+#menu {
+    position: absolute;
+    left: -100%;
+    top: 8%;
+    background-color: #919191;
+    width: 300px;
+    float: left;
+    height: 375px;
+    opacity: 0.9;
+    font-family: 'Jaldi';
+    font-size: 45px;
+    padding-top: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+/* Header */
+#section {
+    color: white;
+    font-size: 65pt;
+    font-family: 'Jaldi';
+    font-weight: 700;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+
+}
+/* Header */
+.recipesTitle {
+    font-size: 48pt;
+    font-weight: 700;
+    color: white;
+    font-size: 65pt;
+    font-family: 'Jaldi';
+    position: absolute;
+    top: 10%;
+    left: 37%;
+}
+/* Recipe buttons */
+button {
+    margin: 2%;
+    width: 75%;
+    padding: 10px 26px;
+    font-weight: 700;
+    background-color: rgb(179, 179, 179);
+    border: 3px solid white;
+    font-family: 'Jaldi';
+    font-size: 26pt;
+    border-radius: 5px;
+    color: white;
+    margin-left: 12%;
+    height: 90px;
+}
+
+/* Radio buttons */
+#c1 {
+    width: 2em;
+    height: 2em;
+    padding-bottom: 20px;
+}
+
+#c2 {
+    width: 2em;
+    height: 2em;
+    padding-bottom: 20px;
+}
+
+#c3 {
+    width: 2em;
+    height: 2em;
+    padding-bottom: 20px;
+}
+
+#c4 {
+    width: 2em;
+    height: 2em;
+    padding-bottom: 20px;
+}
+
+#c5 {
+    width: 2em;
+    height: 2em;
+    padding-bottom: 20px;
+}
+/* Logo */
+#eats {
+    font-size: 90pt;
+    color: white;
+    font-family: 'Jaldi';
+    font-weight: 1000;
+    margin: 2%;
+    position: absolute;
+    top: -2%;
+}
+/* Recipe box positions */
+#r {
+    position: absolute;
+    top: 28%;
+    width: 90%;
+    left: 7%;
+}
+/* User name */
+#stuff {
+    font-size: 50pt;
+    color: white;
+    font-family: 'Jaldi';
+    font-weight: 1000;
+    position: absolute;
+    left: 15%;
+    top: 17%;
+
+}
+/* Font of the recipe steps and ingredients */
+.testing {
+    font-size: 20pt;
+    font-family: 'Jaldi';
+}
+/* Panel that slides out to display recipe */
+.panel #testbox2 {
+    padding: 5px;
+    width: 75%;
+    padding: 10px 26px;
+    font-weight: 700;
+    background-color: rgb(179, 179, 179);
+    border: 3px solid white;
+    font-family: 'Jaldi';
+    font-size: 24px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 12%;
+}
+/* Panel that slides out to display recipe */
+.panel {
+    padding: 50px;
+    display: none;
+    padding: 5px;
+    width: 69%;
+    height: 1580px;
+    padding: 10px 26px;
+    font-weight: 700;
+    background-color: rgb(179, 179, 179);
+    border: 3px solid white;
+    font-family: 'Jaldi';
+    font-size: 24pt;
+    border-radius: 5px;
+    margin-left: 12%;
+}
+/* Ingredients title */
+#title1 {
+    color: white;
+    padding: 1px 5px;
+    background-color: rgb(171, 24, 24);
+    border: 3px solid white;
+    border-radius: 10px;
+    opacity: 0.9;
+    width: 24.5%;
+    font-size: 26pt;
+}
+/* Steps title */
+#title2 {
+    color: white;
+    padding: 1px 5px;
+    background-color: rgb(171, 24, 24);
+    border: 3px solid white;
+    border-radius: 10px;
+    opacity: 0.9;
+    width: 12%;
+    font-size: 26pt;
+}
+/* Yield */
+#yield {
+    border-bottom: 3px solid rgb(171, 24, 24);
+    border-radius: 2px;
+    opacity: 0.9;
+    width: 18%;
+    font-size: 26pt;
+}
+/* Slogan */
+#slogan {
+    color: white;
+    font-size: 45pt;
+    font-family: 'Jaldi';
+    font-weight: 700;
+    position: absolute;
+    top: 17%;
+    left: 26%;
+}
+/* Changing certain panels heights */
+#panel16,
+#panel1 {
+    height: 1900px;
+}

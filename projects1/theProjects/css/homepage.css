@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Jaldi&display=swap');
+/* Profile icon */
+.profile {
+    width: 45px;
+    height: auto;
+    filter: invert(1);
+    margin-right: 10px;
+    margin-top: 20px;
+    position: absolute;
+    top: -1%;
+    left: 85%;
+
+}
+/* Lets Cook button*/
+button i {
+    position: absolute;
+    left: 95px;
+    top: 45%;
+    padding: 16px 32px;
+    font-weight: 700;
+    background-color: rgb(171, 24, 24);
+    border: 3px solid white;
+    font-family: 'Jaldi';
+    font-size: 32px;
+    border-radius: 10px;
+    color: white;
+}
+/* Background image */
+body {
+    background-image: url("images/background3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.9;
+}
+/* Welcome header */
+#welcome {
+    font-size: 30pt;
+    color: white;
+    font-family: 'Jaldi';
+    font-weight: 1000;
+    position: absolute;
+    top: 15%;
+    left: 33%;
+}
+/* Logo */
+#eats {
+    font-size: 64px;
+    color: white;
+    font-family: 'Jaldi';
+    font-weight: 1000;
+    margin: 5px;
+    position: absolute;
+    top: -2%;
+}
+/* User's name */
+#stuff {
+    font-size: 22pt;
+    color: white;
+    font-family: 'Jaldi';
+    font-weight: 1000;
+    word-spacing: 7px;
+    margin-left: 5px;
+    opacity: .95;
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}

@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Eats | Recipes | </title>
+    <link rel="stylesheet" type="text/css" href="css/recipes.css">
+   
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-database.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+</head>
+
+<body>
+    <div id="menu">
+      <!-- Radio buttons for each category-->
+        <input type="radio" id="c1" name="filter" value="Chicken" />Meat<br>
+        <input type="radio" id="c2" name="filter" value="Vegan" />Vegan<br>
+        <input type="radio" id="c3" name="filter" value="Vegetarian" />Vegetarian<br>
+        <input type="radio" id="c4" name="filter" value="Seafood" />Seafood<br>
+        <input type="radio" id="c5" name="filter" value="None" />None<br>
+    </div>
+    <!-- Header -->
+    <div id="section">Welcome!</div>
+    <div id="slogan"> Ketchup on Cooking...</div>
+
+    <!-- Logo -->
+    <div id="eats"><i>EATS</i></div>
+    <!-- Filter button -->
+    <div id="menu-icon">Filter</div>
+    
+    <!-- All the recipe buttons --> 
+    <div id="r">
+        <button id="testbox1" onclick="display1()"> Vegan Burgers </button>
+       <!-- panel that pulls out of the recipe to display the actual recipe -->
+        <div class="panel" id="panel1">recipies go here</div>
+
+        <button id="testbox2" onclick="display2()">Air Fryer Fish </button>
+        <div class="panel" id="panel2">recipies go here</div>
+
+        <button id="testbox3" onclick="display3()"> Stir-Fry Prawns with Peppers and Spinach</button>
+        <div class="panel" id="panel3">recipies go here</div>
+
+        <button id="testbox4" onclick="display4()"> Cumcumber-Melon Soup </button>
+        <div class="panel" id="panel4">recipies go here</div>
+
+        <button id="testbox5" onclick="display5()"> Poor Man's Rongole Rosso </button>
+        <div class="panel" id="panel5">recipies go here</div>
+
+        <button id="testbox6" onclick="display6()">BBQ Chickpea and Cauliflower Flatbread</button>
+        <div class="panel" id="panel6">recipies go here</div>
+
+        <button id="testbox7" onclick="display7()">Easy Roasted Veggies and Temph Bowl </button>
+        <div class="panel" id="panel7">recipies go here</div>
+
+        <button id="testbox8" onclick="display8()">Grilled Lobser Tail with Herb Butter</button>
+        <div class="panel" id="panel8">recipies go here</div>
+
+        <button id="testbox9" onclick="display9()"> Gourmet Mac and Cheese</button>
+        <div class="panel" id="panel9"> </div>
+
+        <button id="testbox10" onclick="display10()"> Easy Chicken Tagine</button>
+        <div class="panel" id="panel10">recipies go here</div>
+
+        <button id="testbox11" onclick="display11()"> Vegetarian Spahgetti </button>
+        <div class="panel" id="panel11">recipies go here</div>
+
+        <button id="testbox12" onclick="display12()"> Grilled Chicken Tacos </button>
+        <div class="panel" id="panel12">recipies go here</div>
+
+        <button id="testbox13" onclick="display13()">Good Ol' Fashioned Pancakes </button>
+        <div class="panel" id="panel13">recipies go here</div>
+
+        <button id="testbox14" onclick="display14()">Garlic Rosemary Pork Chops</button>
+        <div class="panel" id="panel14">recipies go here</div>
+
+        <button id="testbox15" onclick="display15()"> Butternut Squash and Turmeric Soup </button>
+        <div class="panel" id="panel15">recipies go here</div>
+
+        <button id="testbox16" onclick="display16()"> Grilled Steak with Tomatoes and Guacamole </button>
+        <div class="panel" id="panel16">recipies go here</div>
+
+        <!-- inside format of the recipe buttons where the actual 
+        recipe steps and ingredients are displayed  -->
+        <div class="theInfo">
+            <div id="yield" class="testing"></div>
+            <br>
+            <div id="title1" class="testing"></div>
+            <br>
+            <div id="ingred" class="testing"></div>
+            <br>
+            <div id="title2" class="testing"></div>
+            <br>
+            <div id="instruct" class="testing"></div>
+        </div>
+    </div>
+    <!-- Linking JQuery and scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts/recipes.js"> </script>
+    <script src="scripts/firebaseAuth.js"> </script>
+    <script src="scripts/FirebaseLinking.js"> </script>
+
+</body>
+
+</html>

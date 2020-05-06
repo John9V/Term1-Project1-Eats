@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Jaldi&display=swap');
+
+/* removes the default margins */
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* adding grey tint to background */
+body {
+  background-color: rgb(163, 155, 155);
+}
+
+/* background burger image */
+.background {
+  background-image: url(images/background_login.jpg);
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+  background-repeat: no-repeat;
+  filter: blur(3px);
+  position: absolute;
+  z-index: -1
+}
+
+/* title -- EATS */
+.header {
+  /*text*/
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 35pt;
+  font-weight: 1000;
+  font-family: 'Jaldi';
+  /* positioning */
+  position: relative;
+  top: 10%;
+  width: 70%;
+  left: 13%;
+  /* border */
+  padding: 10px 26px;
+  background-color: rgb(171, 24, 24);
+  border: 3px solid white;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+/* sign in box */
+#firebaseui-auth-container {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  left: 9%;
+  top: 50%;
+}
+
+/* title --> sign in */
+#sign {
+  font-size: 27pt;
+  color: white;
+  margin-top: 45%;
+  margin-left: 35.5%;
+  font-family: 'Jaldi';
+}
+
+/* title --> new to EATS... */
+#new {
+  font-size: 18pt;
+  color: white;
+  margin-top: -5%;
+  margin-left: 15%;
+  font-family: 'Jaldi';
+  word-spacing: 3px;
+}
